@@ -1,0 +1,46 @@
+.edit-button, .delete-button, .save-button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+  }
+
+  .edit-input {
+    width: 100%; /* Make input fields expand to fill their container */
+    padding: 5px; /* Add padding to input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    border-radius: 4px; /* Add border radius to input fields */
+    box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+    margin-bottom: 5px; /* Add margin at the bottom of input fields */
+  }
+  
+  .edit-button {
+    background-color: #ffc107; /* Amber */
+    color: black;
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800; /* Darker Amber */
+  }
+  
+  .delete-button {
+    background-color: #dc3545; /* Red */
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Darker Red */
+  }
+  
+  .save-button {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #218838; /* Darker Green */
+  }
+  

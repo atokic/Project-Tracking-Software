@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.start-button,
+.stop-button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  background-color: #007bff; /* Blue for start button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.stop-button {
+  background-color: #dc3545; /* Red for stop button */
+}
+
+/* Apply hover effect for both buttons */
+.start-button:hover,
+.stop-button:hover {
+  opacity: 0.9;
+}
+
