@@ -59,3 +59,29 @@
   opacity: 0.9;
 }
 
+.project-list-container {
+  position: relative; /* Ensure relative positioning for absolute positioning of the export button */
+}
+
+/* Export button styles */
+.export-button-container {
+  position: absolute; /* Position the container absolutely */
+  top: calc(100% + 20px); /* Position it below the table */
+  left: 50%; /* Align it horizontally in the center */
+  transform: translateX(-50%); /* Adjust the position */
+}
+
+.export-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.export-button:hover {
+  background-color: #218838; /* Darker Green */
+}
